@@ -1,0 +1,10 @@
+This is a sample file used for testing the fsgrep utility.
+It contains multiple lines with different content.
+The search term 'foo' should match lines containing it.
+However, lines with 'Foo' should not be matched due to case sensitivity.
+Some lines might have 'barfood', which should also be matched.
+This line is here just for demonstration purposes.
+End of file.
+foo
+foo
+foo
